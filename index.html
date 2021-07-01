@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html manifest="cache.manifest"><head>
+<title>PlayStation 4 7.55 lite MichaelCL13</title>
+<style>
+html, body {
+background-image: url('img.jpg');
+background-attachment: fixed;
+background-size:100%;
+background-repeat:no-repeat;
+background-color: #24272b;
+color:white;
+margin-top: 0px;
+margin-left: 0px;
+margin-right: 0px;
+overflow: hidden;
+}
+h1 {
+text-shadow: 0.1em 0.1em 0.2em black;
+font-size:25px;
+text-align:center;
+color:white;
+}
+.btn {
+width: 262px;
+height: 49px;
+padding-top: 10px;
+padding-bottom: 13px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 20px;
+margin-top: 15px;
+margin-bottom: 5px;
+margin-left: 15px;
+margin-right: 5px;
+border-bottom-width: 0px;
+border-right-width: 0px;
+border-top-width: 0px;
+border-left-width: 0px;
+-webkit-transition-duration: 0.4s;
+transition-duration: 0.4s;
+cursor: pointer;
+}
+.btn-main {
+background-color: #AE9EFF;
+color: white;
+border-radius: 10px;
+}
+.btn-main:hover {
+box-shadow: 0 5px 50px 0 #AE9EFF;
+background-color: #AE9EFF;
+color: white;
+    border-radius: 10px;
+}
+</style>
+<script>
+function DLProgress(e){Percent=(Math.round(e.loaded / e.total * 100));document.getElementById="display:none";window.msgs.innerHTML="Instalando Cache en el navegador: " + Percent + "%";}
+function DisplayCacheProgress(){setTimeout(function(){window.msgs.innerHTML="Instalacion Completa del Cache ✔";},1000);setTimeout(function(){window.msgs.innerHTML="Ya puede Salir y desconectar la Internet y volver abrir el Navegador ...";},3000);}window.applicationCache.addEventListener("progress",DLProgress,false);window.applicationCache.oncached=function(e){DisplayCacheProgress();};window.applicationCache.onupdateready=function(e){DisplayCacheProgress();};
+document.cookie = 'kex=1';
+</script>
+</head>
+<h1 id=msgs>PlayStation 4 7.55 lite MichaelCL13</h1>
+<hr>
+<br>
+<h1 style="font-size:32px;text-align:center;color:#8D699E;">Experimentara problemas de memoria insuficiente en el navegador! (Debe seguir Intentandolo)</h1>
+<div style="text-align:center">
+<button class="btn btn-main" onmouseover="mainpayload1()" onmouseout="pagetitle()" onclick=load_goldhen755()> GoldHEN </button>
+<br>
+<h1 style="font-size:20px;text-align:center;color:#6BFFC1">PAYLOADS</h1>
+<button class="btn btn-main" onmouseover="goldhen()" onmouseout="pagetitle()" onclick=load_goldhen()> goldHEN 1.0 </button>
+<button class="btn btn-main" onmouseover="dumper()" onmouseout="pagetitle()" onclick=load_dumper()> Dumper </button>
+<button class="btn btn-main" onmouseover="linux3gb()" onmouseout="pagetitle()" onclick=load_linux3gb()> Linux 3VRAM </button>
+<button class="btn btn-main" onmouseover="linux1gb()" onmouseout="pagetitle()" onclick=load_linux1gb()> Linux 1VRAM </button>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<br>
+<br>
+<br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<h1 style="font-size:30px;text-align:center;margin-top: 20px;color:#6BFFC1;">MichaelCL13 +53 52561272 Instalacion de Juegos para PlayStaion 4</a>&nbsp&nbsp</h1>
+<br>
+<br>
+<script>
+function mainpayload1(){
+document.getElementById("msgs").innerHTML = "GOLDHEN v1.1 para todos los sistemas 7.55 (Incluye arreglo temporal para error CE-30391-6)";
+}
+function goldhen(){
+document.getElementById("msgs").innerHTML = "GOLDHEN v1.0 para todos los sistemas 7.55";
+}
+function dumper(){
+document.getElementById("msgs").innerHTML = "Dumpear tus Juegos (Es necesario USB en exFAT y el fichero (dumper.cfg en la raiz del USB))";
+}
+function linux3gb(){
+document.getElementById("msgs").innerHTML = "Cargar Linux 3VRAM para Emuladores y Modo PC";
+}
+function linux1gb(){
+document.getElementById("msgs").innerHTML = "Cargar Linux 1VRAM para Emuladores y Modo PC";
+}
+function pagetitle(){
+document.getElementById("msgs").innerHTML = "PlayStation 4 7.55 lite MichaelCL13";
+}
+function load_goldhen755(){
+
+  var link = document.createElement('a');
+        document.body.appendChild(link);
+        link.href = 'payload.html#f=goldhen755.js';
+        link.click();
+}
+function load_goldhen(){
+
+  var link = document.createElement('a');
+        document.body.appendChild(link);
+        link.href = 'payload.html#f=goldhen.js';
+        link.click();
+}
+function load_dumper(){
+
+  var link = document.createElement('a');
+        document.body.appendChild(link);
+        link.href = 'payload.html#f=app-dumper.js';
+        link.click();
+}
+function load_linux3gb(){
+
+  var link = document.createElement('a');
+        document.body.appendChild(link);
+        link.href = 'payload.html#f=linux3gb.js';
+        link.click();
+}
+function load_linux1gb(){
+
+  var link = document.createElement('a');
+        document.body.appendChild(link);
+        link.href = 'payload.html#f=linux1gb.js';
+        link.click();
+
+}
+function load_morepls(){
+
+  var link = document.createElement('a');
+        document.body.appendChild(link);
+        link.href = 'more-plds.html';
+        link.click();
+}
+</script>
+</body>
+</html>
