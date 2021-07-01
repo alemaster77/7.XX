@@ -55,7 +55,7 @@ color: white;
 </style>
 <script>
 function DLProgress(e){Percent=(Math.round(e.loaded / e.total * 100));document.getElementById="display:none";window.msgs.innerHTML="INSTALANDO CACHE: " + Percent + "%";}
-function DisplayCacheProgress(){setTimeout(function(){window.msgs.innerHTML="INSTALACION DE CACHE COMPLETADA ✔";},1000);setTimeout(function(){window.msgs.innerHTML="SALGA DEL NAVEGADOR, DESCONCECTE INTERNET Y VUELVA A ENTRAR";},3000);}window.applicationCache.addEventListener("progress",DLProgress,false);window.applicationCache.oncached=function(e){DisplayCacheProgress();};window.applicationCache.onupdateready=function(e){DisplayCacheProgress();};
+function DisplayCacheProgress(){setTimeout(function(){window.msgs.innerHTML="INSTALACION DE CACHE COMPLETADA ✔";},1000);setTimeout(function(){window.msgs.innerHTML="SALGA DEL NAVEGADOR, DESACTIVE INTERNET Y VUELVA A ENTRAR";},3000);}window.applicationCache.addEventListener("progress",DLProgress,false);window.applicationCache.oncached=function(e){DisplayCacheProgress();};window.applicationCache.onupdateready=function(e){DisplayCacheProgress();};
 document.cookie = 'kex=1';
 </script>
 </head>
