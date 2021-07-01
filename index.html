@@ -54,8 +54,8 @@ color: white;
 }
 </style>
 <script>
-function DLProgress(e){Percent=(Math.round(e.loaded / e.total * 100));document.getElementById="display:none";window.msgs.innerHTML="Instalando Cache en el navegador: " + Percent + "%";}
-function DisplayCacheProgress(){setTimeout(function(){window.msgs.innerHTML="Instalacion Completa del Cache ✔";},1000);setTimeout(function(){window.msgs.innerHTML="Ya puede Salir y desconectar la Internet y volver abrir el Navegador ...";},3000);}window.applicationCache.addEventListener("progress",DLProgress,false);window.applicationCache.oncached=function(e){DisplayCacheProgress();};window.applicationCache.onupdateready=function(e){DisplayCacheProgress();};
+function DLProgress(e){Percent=(Math.round(e.loaded / e.total * 100));document.getElementById="display:none";window.msgs.innerHTML="INSTALANDO EL CACHE: " + Percent + "%";}
+function DisplayCacheProgress(){setTimeout(function(){window.msgs.innerHTML="INSTALACION COMPLETA ✔";},1000);setTimeout(function(){window.msgs.innerHTML="SALGA, DESCONECTE INTERNET Y VUELVA A ENTRAR...";},3000);}window.applicationCache.addEventListener("progress",DLProgress,false);window.applicationCache.oncached=function(e){DisplayCacheProgress();};window.applicationCache.onupdateready=function(e){DisplayCacheProgress();};
 document.cookie = 'kex=1';
 </script>
 </head>
@@ -63,11 +63,11 @@ document.cookie = 'kex=1';
 <br>
 <h1 style="font-size:32px;text-align:center;color:#8D699E;">EXPLOIT HOST PS4 MASTERHACK</h1>
 <div style="text-align:center">
-<button class="btn btn-main" onmouseover="mainpayload1()" onmouseout="pagetitle()" onclick=load_goldhen755()> GoldHEN </button>
+<button class="btn btn-main" onmouseover="mainpayload1()" onmouseout="pagetitle()" onclick=CARGAR GOLDHEN 1.1()> GOLDHEN 1.1 </button>
 <br>
-<h1 style="font-size:20px;text-align:center;color:#6BFFC1">PAYLOADS</h1>
-<button class="btn btn-main" onmouseover="goldhen()" onmouseout="pagetitle()" onclick=load_goldhen()> goldHEN 1.0 </button>
-<button class="btn btn-main" onmouseover="dumper()" onmouseout="pagetitle()" onclick=load_dumper()> Dumper </button>
+<h1 style="font-size:20px;text-align:center;color:#6BFFC1">CARGAS UTILES</h1>
+<button class="btn btn-main" onmouseover="GOLDHEN()" onmouseout="pagetitle()" onclick=CARGAR GOLDHEN()> GOLDHEN 1.0 </button>
+<button class="btn btn-main" onmouseover="DUMPER()" onmouseout="pagetitle()" onclick=CARGAR DUMPER()> DUMPER </button>
 <br>
 <br>
 <br>
@@ -83,25 +83,22 @@ document.cookie = 'kex=1';
 <br>
 <script>
 function mainpayload1(){
-document.getElementById("msgs").innerHTML = "GOLDHEN v1.1 para todos los sistemas 7.55 (Incluye arreglo temporal para error CE-30391-6)";
-}
+document.getElementById("msgs").innerHTML = "GOLDHEN 1.1 
 function goldhen(){
-document.getElementById("msgs").innerHTML = "GOLDHEN v1.0 para todos los sistemas 7.55";
-}
+document.getElementById("msgs").innerHTML = "GOLDHEN 1.0 
 function dumper(){
-document.getElementById("msgs").innerHTML = "Dumpear tus Juegos (Es necesario USB en exFAT y el fichero (dumper.cfg en la raiz del USB))";
-}
+document.getElementById("msgs").innerHTML = "DRUMPER
 function pagetitle(){
-document.getElementById("msgs").innerHTML = "PlayStation 4 7.55 lite MichaelCL13";
+document.getElementById("msgs").innerHTML = "MASTERHACK HOST PS4";
 }
-function load_goldhen755(){
+function CARGAR GOLDHEN(){
 
   var link = document.createElement('a');
         document.body.appendChild(link);
         link.href = 'payload.html#f=goldhen755.js';
         link.click();
 }
-function load_goldhen(){
+function CARGAR GOLDHEN(){
 
   var link = document.createElement('a');
         document.body.appendChild(link);
