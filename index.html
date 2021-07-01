@@ -69,8 +69,6 @@ document.cookie = 'kex=1';
 <h1 style="font-size:20px;text-align:center;color:#6BFFC1">PAYLOADS</h1>
 <button class="btn btn-main" onmouseover="goldhen()" onmouseout="pagetitle()" onclick=load_goldhen()> goldHEN 1.0 </button>
 <button class="btn btn-main" onmouseover="dumper()" onmouseout="pagetitle()" onclick=load_dumper()> Dumper </button>
-<button class="btn btn-main" onmouseover="linux3gb()" onmouseout="pagetitle()" onclick=load_linux3gb()> Linux 3VRAM </button>
-<button class="btn btn-main" onmouseover="linux1gb()" onmouseout="pagetitle()" onclick=load_linux1gb()> Linux 1VRAM </button>
 <br>
 <br>
 <br>
@@ -94,12 +92,6 @@ document.getElementById("msgs").innerHTML = "GOLDHEN v1.0 para todos los sistema
 function dumper(){
 document.getElementById("msgs").innerHTML = "Dumpear tus Juegos (Es necesario USB en exFAT y el fichero (dumper.cfg en la raiz del USB))";
 }
-function linux3gb(){
-document.getElementById("msgs").innerHTML = "Cargar Linux 3VRAM para Emuladores y Modo PC";
-}
-function linux1gb(){
-document.getElementById("msgs").innerHTML = "Cargar Linux 1VRAM para Emuladores y Modo PC";
-}
 function pagetitle(){
 document.getElementById("msgs").innerHTML = "PlayStation 4 7.55 lite MichaelCL13";
 }
@@ -122,20 +114,6 @@ function load_dumper(){
   var link = document.createElement('a');
         document.body.appendChild(link);
         link.href = 'payload.html#f=app-dumper.js';
-        link.click();
-}
-function load_linux3gb(){
-
-  var link = document.createElement('a');
-        document.body.appendChild(link);
-        link.href = 'payload.html#f=linux3gb.js';
-        link.click();
-}
-function load_linux1gb(){
-
-  var link = document.createElement('a');
-        document.body.appendChild(link);
-        link.href = 'payload.html#f=linux1gb.js';
         link.click();
 
 }
